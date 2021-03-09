@@ -1,3 +1,5 @@
+'use strict'
+
 alert('Welcome to my "about me" website. You will be put through a series of yes or no questions that will teach you a little more about me. Please press "OK" to continue');
 
 function guessname(){
@@ -64,3 +66,6 @@ function guessstate(){
     }
 }
 guessstate();
+
+let userName=prompt("Please enter your name!")
+    alert('Welcome ' + userName + '!')
