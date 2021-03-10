@@ -1,6 +1,6 @@
 # Lab - 02
 
-## About me Webpage
+## About me webpage
 
 ### Author: Kyle Hoac
 
