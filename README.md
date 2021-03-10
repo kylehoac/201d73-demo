@@ -1,12 +1,11 @@
 # Lab - 02
 
-## Project Name
+## About me webpage
 
 ### Author: Kyle Hoac
 
 ### Links and Resources
 
-- [some PR link](https://somewhere.com)
-- Any other links
+- [Link to webpage](https://kylehoac.github.io/201d73-demo/)
 
 ### Reflections and Comments
