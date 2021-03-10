@@ -1,11 +1,17 @@
 * {
-    background-color:rgb(245, 245, 220);
+    background-color:rgb(187, 187, 178);
+    color: rgb(0, 0, 0)
 
 }
 h1 {
-    font-size: 20px;
-    border-style:dashed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    border: inset;
+    border-radius: 15px;
     text-align: center;
+    color:rgba(223, 97, 97, 0.733);
+    background-color:silver;
+    text-shadow:2px 2px 2px #000;
 }
 .navbar {
     text-align: center;
