@@ -1,6 +1,6 @@
 * {
-    background-color:rgb(187, 187, 178);
-    color: rgb(0, 0, 0)
+    background-color:rgb(61, 14, 14);
+    color: silver;
 
 }
 h1 {
@@ -9,8 +9,8 @@ h1 {
     border: inset;
     border-radius: 15px;
     text-align: center;
-    color:rgba(223, 97, 97, 0.733);
-    background-color:silver;
+    color:silver;
+    background-color:black;
     text-shadow:2px 2px 2px #000;
 }
 .navbar {
