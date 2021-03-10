@@ -1,4 +1,4 @@
-// 'use strict'
+'use strict'
 
 // alert('Welcome to my "about me" website. You will be put through a series of yes or no questions that will teach you a little more about me. Please press "OK" to continue');
 
@@ -70,26 +70,23 @@
 // let userName = prompt("Please enter your name!")
 // alert('Welcome ' + userName + '!')
 
-function numberGuessingGame(){
+// let answer = 7;
+// let guesses = 4;
+// for (let i = 0; i < guesses; i++) {
+//     let userAnswer = prompt(`Please enter a number from 1-10`);
+//     if (userAnswer == answer) {
+//         alert(`You got it right!`);
+//         break;
+//     } else if (userAnswer < 7) {
+//         alert(`Guess was too low!`)
+//     } else if (userAnswer > 7) {
+//         alert(`Guess was too high!`)
+//     } else {
+//         alert(`Must enter a number`)
+//     }
 
-    let answer = 7;
-    let guesses = 4;
-    for(let i = 0; i < guesses; i++){
-        let userAnswer = prompt(`Please enter a number from 1-10`);
-        if(userAnswer == answer){
-            alert(`You got it right!`);
-            break;
-        } else if (userAnswer < 7){
-            alert(`Guess was too low!`)
-        } else if (userAnswer > 7){
-            alert(`Guess was too high!`)
-        } else {
-            alert(`Must enter a number`)
-        }
-    }
-}
-    numberGuessingGame();
-
+// }
+// alert(`The answer is ` + answer);
 
 
 // let favColor = prompt(`Guess one of my favorite colors`)
