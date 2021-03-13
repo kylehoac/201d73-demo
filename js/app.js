@@ -2,7 +2,7 @@
 
 let rightans = 0 
 
-alert('Welcome to my "about me" website. You will be put through a series of yes or no questions that will teach you a little more about me. Please press "OK" to continue');
+alert('Welcome to my "about me" website. You will be put through a series of yes or no questions that will teach you a little bit more about me. Please press "OK" to continue');
 
 function guessName() {
 
@@ -34,7 +34,7 @@ guessAge();
 
 function guessJob() {
 
-    let job = prompt("Did I previously worked in education?").toLowerCase();
+    let job = prompt("Did I previously work in education?").toLowerCase();
     console.log('The user answered ' + job)
     if (job === "no" || job === "n") {
         rightans += 1;
@@ -48,7 +48,7 @@ guessJob();
 
 function guessColor() {
 
-    let color = prompt("My favorite color is red").toLowerCase();
+    let color = prompt("Is my favorite color red?").toLowerCase();
     console.log('The user answered ' + color)
     if (color === "no" || color === "n") {
         rightans += 1;
@@ -62,7 +62,7 @@ guessColor();
 
 function guessState() {
 
-    let state = prompt("I was born in raised in Washington").toLowerCase();
+    let state = prompt("Was I born and raised in Washington").toLowerCase();
     console.log('The user answered ' + state)
     if (state === "no" || state === "n") {
         rightans += 1;
