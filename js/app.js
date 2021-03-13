@@ -1,13 +1,13 @@
-'use strict'
+'use strict';
 
-let rightans = 0 
+let rightans = 0; 
 
 alert('Welcome to my "about me" website. You will be put through a series of yes or no questions that will teach you a little more about me. Please press "OK" to continue');
 
 function guessName() {
 
     let name = prompt("Is my name Kyle?").toLowerCase();
-    console.log('The user answered ' + name)
+    console.log('The user answered ' + name);
     if (name === "yes" || name === "y") {
         rightans += 1;
         alert("Your answer is correct!");
@@ -21,7 +21,7 @@ guessName();
 function guessAge() {
 
     let age = prompt("Am I 21 years old?").toLowerCase();
-    console.log('The user answered ' + age)
+    console.log('The user answered ' + age);
     if (age === "no" || age === "n") {
         rightans += 1;
         alert("Your answer is correct!");
@@ -63,7 +63,7 @@ guessColor();
 function guessState() {
 
     let state = prompt("I was born in raised in Washington").toLowerCase();
-    console.log('The user answered ' + state)
+    console.log('The user answered ' + state);
     if (state === "no" || state === "n") {
         rightans += 1;
         alert("Your answer is correct!");
@@ -74,25 +74,25 @@ function guessState() {
 }
 guessState();
 
-let userName = prompt("Please enter your name!")
-console.log(`User specified name as ` + userName)
-alert('Welcome ' + userName + '!')
+let userName = prompt("Please enter your name!");
+console.log(`User specified name as ` + userName);
+alert('Welcome ' + userName + '!');
 
 let answer = 7;
 let guesses = 4;
 for (let i = 0; i < guesses; i++) {
-    let userAnswer = prompt(`Please enter a number from 1-10`);
+    let userAnswer = parseInt(`Please enter a number from 1-10`);
     if (userAnswer == answer) {
         rightans += 1;
         alert(`You got it right!`);
-        console.log('User answered ' + userAnswer)
+        console.log('User answered ' + userAnswer);
         break;
     } else if (userAnswer < 7) {
-        alert(`Guess was too low!`)
+        alert(`Guess was too low!`);
     } else if (userAnswer > 7) {
-        alert(`Guess was too high!`)
+        alert(`Guess was too high!`);
     } else {
-        alert(`Must enter a number`)
+        alert(`Must enter a number`);
     }
 
 }
@@ -104,13 +104,21 @@ for (let i = 0; i < guess; i++) {
     let userAns = parseInt(prompt("Once again, please enter a number from 1 - 10"))
     // console.log(typeof userAns)
     while(userAns < 1 || userAns > 10){
+<<<<<<< HEAD
         userAns = parseInt(prompt(`Please enter a number between 1-10`))
+=======
+        userAns=prompt(`Please enter a number between 1-10`);
+>>>>>>> 9b71ae9fcfe56b1c73c69e6183374b70dd5064a9
     }
     for (let k = 0; k < ans.length; k++) {
         if (userAns === ans[k]) {
             rightans += 1;
             alert(`You got it right! The correct answers were 4, 6, and 7!`)
+<<<<<<< HEAD
             console.log('User answered ' + userAns)
+=======
+            console.log('User answered ' + userAns);
+>>>>>>> 9b71ae9fcfe56b1c73c69e6183374b70dd5064a9
             i = 7;
             break;
         }
@@ -118,4 +126,7 @@ for (let i = 0; i < guess; i++) {
 }
 alert('You got ' + rightans + ' answers correct!');
 console.log(`User answered ` + rightans + ` questions correctly`);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b71ae9fcfe56b1c73c69e6183374b70dd5064a9
