@@ -1,19 +1,45 @@
 * {
-    background-color:rgb(61, 14, 14);
-    color: silver;
-
+    background-color:#F8F2DC;
 }
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    border: inset;
-    border-radius: 15px;
+    font-size: 45px;
+    border:groove rgba(186, 34, 34, 0.632) 10px;
+    border-radius: 25px;
     text-align: center;
-    color:silver;
-    background-color:black;
-    text-shadow:2px 2px 2px #000;
+    color:#ff6200;
+    background-color:#DEA47E;
+    text-shadow:2px 2px 2px rgb(0, 0, 0);
+    margin-top:20px;
+}
+article {
+    font-size: 30px;
+    text-align: center;
+    background-color:#d78046;
+    border:groove rgba(186, 34, 34, 0.632) 5px;
+}
+body {font-family: 'Averia Libre';font-size: 22px;
+    font-size: 20px;
 }
 .navbar {
+    color:#81ADC8;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+}
+.employmentHistory {
+    font-size: 25px;
+    text-align:center;
+    border:groove rgba(186, 34, 34, 0.632) 5px;
+    margin:0px 700px;
+}
+.educationHistory {
+    font-size: 25px;
+    text-align:center;
+    border:groove rgba(186, 34, 34, 0.632) 5px;
+    margin:0px 700px;
+}
+.top10{
+    font-size: 30px;
+    text-align: center;
+    border:groove rgba(186, 34, 34, 0.632) 15px;
+    margin:0px 750px;
 }

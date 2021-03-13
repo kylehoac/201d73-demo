@@ -104,17 +104,18 @@ for (let i = 0; i < guess; i++) {
     let userAns = parseInt(prompt("Once again, please enter a number from 1 - 10"))
     // console.log(typeof userAns)
     while(userAns < 1 || userAns > 10){
-        userAns=prompt(`Please enter a number between 1-10`)
+        userAns = parseInt(prompt(`Please enter a number between 1-10`))
     }
     for (let k = 0; k < ans.length; k++) {
         if (userAns === ans[k]) {
             rightans += 1;
             alert(`You got it right! The correct answers were 4, 6, and 7!`)
             console.log('User answered ' + userAns)
-            i = 7
+            i = 7;
             break;
         }
     }
 }
-alert('You got ' + rightans + ' answers correct!')
-console.log(`User answered ` + rightans + ` questions correctly`)
+alert('You got ' + rightans + ' answers correct!');
+console.log(`User answered ` + rightans + ` questions correctly`);
+
