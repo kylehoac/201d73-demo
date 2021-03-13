@@ -9,3 +9,5 @@
 - [Link to webpage](https://kylehoac.github.io/201d73-demo/)
 
 ### Reflections and Comments
+
+- Was partnered up with Rinat for the pair programming
